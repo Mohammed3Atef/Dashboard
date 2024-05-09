@@ -17,7 +17,7 @@
 </head>
 <body class="box-border	h-full min-h-svh bg-black">
   <div class=" flex min-h-full	">
-    <aside class="sticky top-0 z-10 w-12 md:w-20 h-full min-h-svh max-h-full 	px-2 py-2 flex flex-col items-center justify-between	text-[#4c4c4c]">
+    <aside class="sticky top-0 z-10 w-12 md:w-20 max-h-svh  	px-2 py-2 flex flex-col items-center justify-between	text-[#4c4c4c]">
       <div class="flex flex-col items-center ">
         <i class="fa-solid fa-gauge text-lg  text-[#3985fe] mb-6 md:text-3xl "></i>
         <i class="fa-solid fa-globe text-xs  text-[#3985fe] py-1 px-1.5  rounded-lg bg-[#161c29]	cursor-pointer md:py-1.5 md:px-3.5 md:rounded-xl md:text-xl	"></i>
@@ -47,7 +47,7 @@
         </div>
       </header>
       <div class="grid grid-rows-2 gap-y-5 sm:grid-rows-1  sm:grid-col-3 md:grid-cols-4  w-full min-h-full  ">
-        <div class=" h-full  	sm:col-start-1 sm:col-end-3 md:col-start-1 md:col-end-4">
+        <div class=" h-full  w-full 	sm:col-start-1 sm:col-end-3 md:col-start-1 md:col-end-4">
           <div class="mb-5 p-5  sm:p-2	grid  gap-y-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3	lg:gap-y-0 sm:gap-x-1		 w-full lg:min-h-[200px]">
             <div class="  px-5 py-2 rounded-3xl bg-[#101010] text-center text-white ">
               <h3 >Color Paletee Selection</h3>
@@ -159,11 +159,11 @@
             </div>
           </div>
           <div class="text-[white] px-5  sm:px-2 flex justify-between items-center  py-3 ">
-            <div class=" flex justify-between">
-              <h3 class="mr-3 text-lg		">Projects</h3>
-              <div class="bg-[#171717] rounded-full px-5 py-1.5 text-xs	">
+            <div class=" flex justify-between items-center">
+              <h3 class="mr-3 text-xs sm:text-lg		">Projects</h3>
+              <div class="bg-[#171717] rounded-full px-5 py-1.5 text-xs	flex justify-between items-center">
                 <i class="fa-solid fa-arrow-right-arrow-left fa-rotate-90 mr-1 text-[10px]"></i>
-                Filter
+                <div>Filter</div>
               </div>
             </div>
             <ul class="flex justify-between items-center bg-[#171717] rounded-full py-px	 text-xs  text-[#434343]">
@@ -173,7 +173,7 @@
               <li class="py-1.5 px-3">Year</li>
             </ul>
           </div> 
-          <div class="flex w-full overflow-auto max-w-[700px] max-h-[300px] lg:max-w-full lg:max-h-[500px] border-t border-[#4c4c4c94]">
+          <div class="flex w-full overflow-auto max-w-[375px] sm:max-w-[600px] lg:max-w-[700px] max-h-[300px] lg:max-w-full lg:max-h-full border-t border-[#4c4c4c94]">
             <div class=" h-full text-[10px]  px-1  text-[#494949] sticky left-0 z-10 bg-black  border-r border-[#4c4c4c94]">
               <div class="mt-14">09:00</div>
               <div class="mt-7">10:00</div>
@@ -442,7 +442,7 @@
           </div>
 
         </div>
-        <div class=" p-5 h-svh sm:p-0  border-l border-t border-[#4c4c4c94]  sm:col-start-3 sm:col-end-4 sm:border-t-0 md:col-start-4 md:col-end-5">
+        <div class=" p-5 min-h-full  sm:p-0  border-l border-t border-[#4c4c4c94]  sm:col-start-3 sm:col-end-4 sm:border-t-0 md:col-start-4 md:col-end-5">
           <div class="p-2 border-b border-[#4c4c4c94] text-white">
             <div class="">
               <div class="flex  justify-between items-center		">
@@ -457,7 +457,7 @@
               </div>
               <div class="text-white text-lg mt-[-7px]	">83%</div>
             </div>
-            <div class=" min-h-[200px] w-full grid grid-cols-5 gap-x-2 lg:gap-x-px	">
+            <div class=" min-h-[100px] w-full grid grid-cols-5 gap-x-2 lg:gap-x-px	">
               <div class="bg-[#161616]	rounded-md overflow-hidden	 relative">
                 <div class="h-[92%] bg-[#1f1f1f]  absolute left-0 right-0 bottom-0 text-center flex flex-col justify-end">
                   <span class="text-[8px]">Mon</span>
